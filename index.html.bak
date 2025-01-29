@@ -76,7 +76,15 @@
 				<div class="theme-menu-wrapper">
 					<div class="container">
 						<div class="bg-wrapper clearfix">
-							<div class="logo float-left"><a href="index.html"><img class="logmer" src="images/logo/Logoq.png" alt=""></a></div>
+							<div class="logo float-left">
+							
+							  <div class="logo-desktop">
+								<a href="index.html">
+								<img class="logmer"  src="images/logo/Logoq.png" alt="">
+							</a>
+							</div>
+						
+						</div>
 							
 							<div class="menu-wrapper float-left">
 								<nav id="mega-menu-holder" class="clearfix">
