@@ -896,6 +896,7 @@ body .theme-button-one:hover {
 
 @media all and (max-width:990px) {
   .logmer {
+    background-image: url(assets/images/logo/logo-dark.png);
     width: 125px;
     float: center;
     padding-top: 75px;
@@ -3973,4 +3974,35 @@ feature-compare> :nth-child(2) .button {
   width: 380px;
   padding: 0 20px;
   border: 1px solid #f0f0f0;
+}
+
+
+
+
+
+
+
+
+/* mobile view logo  */
+
+
+.logmer {
+  display: none;
+}
+.logo-mobile{
+	background-color: black;
+}
+.logo-mobile img{
+  display: block;
+margin-top: 0px;
+    margin-left: 113px;
+    width: 34%;
+}
+@media (min-width: 768px) {
+  .logmer {
+      display: block;
+  }
+  .logo-mobile {
+      display: none;
+  }
 }

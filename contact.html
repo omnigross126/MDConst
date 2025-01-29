@@ -43,7 +43,7 @@
 			.contact-table {
 				margin-left: 205px;
     			width: 81%;
-				height: 148%;
+				height: 139%;
 				margin-top: -42px;
 				border-collapse: collapse;
 			}
@@ -75,10 +75,11 @@
 			} */
 			@media (max-width: 768px) {
 				.contact-table{
+
 					margin-top: -35px;
         			margin-left: 36%;
 					display: block;
-					width: 100%;
+					width: 0%;
 				}
 				 .contact-table tr, .contact-table td {
 					display: block;
@@ -89,13 +90,15 @@
 				}
 			}
 
+			
+		
+@media (max-width: 768px) {
+	.contact-map-three {
+		/* margin-top: 20px; */
+		margin-top:90px;
+	}
+}
 
-			/* style for mobile logo */
-			@media (max-width: 768px) {
-				.logo{
-					background-image: url(images/logo/logo-dark.png);
-				}
-			}
 		</style>
 			
 	</head>
@@ -137,9 +140,20 @@
 				<div class="theme-menu-wrapper">
 					<div class="container">
 						<div class="bg-wrapper clearfix">
-						<div class="logo float-left"><a href="index.html"><img class="logmer" src="images/logo/Logoq.png" alt=""></a></div>
+						<div class="logo float-left">
+							<!-- <a href="index.html">
+								<img class="logmer" src="assets/images/logo/MD Logo.jpg" alt="" style="display: block;  ">
+								<img class="logmer-mobile" src="assets/images/logo/logo-dark.png" alt="" style="display: none;">
+							  </a> -->
+							  <div class="logo-desktop">
+								<img class="logmer" src="images/logo/Logoq.png" alt="">
+							</div>
+							<!-- <div class="logo-mobile" style="background-color: black;">
+								<img alt="Mobile logo with company initials" src="assets/images/logo/MD Logo.jpg"/>
+							</div> -->
+						</div>
 							<!-- ============== Menu Warpper ================ -->
-							<div class="menu-wrapper float-left">
+							<div class="menu-wrapper float-left" >
 								<nav id="mega-menu-holder" class="clearfix">
 									<ul class="clearfix">
 										<li class="active"><a href="index.html">Home</a></li>
@@ -184,6 +198,11 @@
                         ==============================================
                         -->
 					<!--====== Page Title start ======-->
+
+					<div class="logo-mobile" >
+						<img  src="assets/images/logo/MD Logo.jpg"/>
+					</div>
+
 		<section class="page-title-area">
 			<div class="container" style="text-align: center;">
 				<h1 class="title">Contact Us</h1>
@@ -248,11 +267,15 @@
 								</a>
 							  </td>
 							  <td >
-								<a href="mailto:info@mdconsultancy.co.in">
-								  <i class="fas fa-envelope" style="font-size: 24px;"></i>
+								<div >
+								  <i class="fas fa-envelope" style="font-size: 24px; margin-top:31px;"></i>
 								  <h5>Email Address</h5>
-								  <p>info@mdconsultancy.co.in</p>
-								</a>
+								 
+								  <p style="margin-top: -62px;"><a href="mailto:mandar.dhawale@gmail.com" >mandar.dhawale@gmail.com</a></p>
+								  <br>
+								  <p style="margin-top: -84px;"><a href="mailto:info@mdconsultancy.co.in">info@mdconsultancy.co.in</a></p>
+								
+								</div>
 							  </td>
 							</tr>
 							<tr>
@@ -264,7 +287,7 @@
 								</a>
 							  </td>
 							  <td >
-								<a href="#">
+								<a href="https://www.linkedin.com/company/md-consultancy-pune">
 								  <i class="fab fa-linkedin" style="font-size: 24px;"></i>
 								  <h5>Social Network</h5>
 								  <p>MD Consultancy Services</p>
@@ -276,7 +299,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="contact-map-three">
+                <div class="contact-map-three" >
                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897.0271044613874!2d73.73913468989166!3d18.610819079302384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b986df269acb%3A0x53d226d60987dd00!2sMD%20Labor%20Law%20Consultancy%20Services!5e1!3m2!1sen!2sin!4v1736768076741!5m2!1sen!2sin" width="750" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d875.1356560080374!2d73.739453!3d18.611114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b986df269acb%3A0x53d226d60987dd00!2sMD%20Labor%20Law%20Consultancy%20Services!5e1!3m2!1sen!2sin!4v1736836181460!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
@@ -388,6 +411,7 @@
 									<li>
 										<i class="flaticon-multimedia-1"></i>
 										<a href="mailto:info@mdconsultancy.co.in">info@mdconsultancy.co.in</a>
+										<a href="mailto:mandar.dhawale@gmail.com">mandar.dhawale@gmail.com</a>
 									</li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
@@ -483,6 +507,7 @@
 				},
 				"telephone": "+91-9876543210",
 				"email": "info@mdconsultancy.co.in",
+				"email": "mandar.dhawale@gmail.com",
 				"sameAs": [
 					"https://www.facebook.com/MDConsultancy",
 					"https://www.twitter.com/MDConsultancy",
